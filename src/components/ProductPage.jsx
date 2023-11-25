@@ -90,7 +90,7 @@ function ProductPage() {
               </div>
 
               <button
-                className="mx-6 mt-3 cursor-pointer rounded-md bg-indigo-500 p-3 text-lg font-semibold text-white outline-none duration-200  hover:bg-indigo-600 md:mx-0 md:w-1/4"
+                className="mx-6 mt-3 cursor-pointer rounded-md bg-indigo-500 p-3 text-lg font-semibold text-white outline-none duration-200  hover:bg-indigo-600 md:w-auto md:mx-20"
                 onClick={handleClick}
               >
                 Add to Cart
