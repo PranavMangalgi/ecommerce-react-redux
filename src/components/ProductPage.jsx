@@ -64,7 +64,7 @@ function ProductPage() {
               <div className="text-3xl font-semibold text-indigo-600">
                 ${product.price}
               </div>
-              <div className="mt-2 text-lg">{product.description}</div>
+              <div className="mt-2 text-lg overflow-hidden line-clamp-5">{product.description}</div>
 
               <div className="mx-auto flex gap-2 text-2xl md:mx-0">
                 <div className="self-center font-semibold">Qty :</div>
