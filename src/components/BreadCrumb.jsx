@@ -43,7 +43,7 @@ function BreadCrumb({ product }) {
             </svg>
           </li>
 
-          <li>
+          <li className="w-1/2">
             <a href="#" className="block transition hover:text-gray-700">
               {product}
             </a>
