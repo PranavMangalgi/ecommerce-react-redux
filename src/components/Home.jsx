@@ -30,9 +30,6 @@ function Home() {
         <div className=" align-center flex flex-col justify-between gap-y-3 p-4 text-indigo-500 md:flex-row">
           <h1 className="text-semibold cursor-pointer text-3xl">Redux Store</h1>
           <div className="text-2xl md:flex md:gap-x-8 md:self-center">
-            <div className="cursor-pointer text-xl hover:text-indigo-700">
-              Home
-            </div>
             <Link to="/cart">
               <div className="cursor-pointer text-xl hover:text-indigo-700">
                 Cart

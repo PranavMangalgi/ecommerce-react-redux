@@ -56,9 +56,7 @@ function Cart() {
             })}
         </div>
       </div>
-      <div className="absolute bottom-[1rem] right-[3rem] text-2xl font-bold">
-        Total Bill: ${state.totalAmount.toFixed(2)}
-      </div>
+      
       {state.addedToCart.length > 1 && (
         <div>
           <button
@@ -72,6 +70,9 @@ function Cart() {
           </button>
         </div>
       )}
+      <div className=" flex justify-end p-4 bg-slate-100 text-2xl font-bold">
+        Total Bill: ${state.totalAmount.toFixed(2)}
+      </div>
     </div>
   );
 }
