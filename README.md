@@ -4,14 +4,6 @@
 
 A React-Redux e-commerce project that demonstrates how to build a scalable and maintainable online shopping platform using the latest web technologies and best practices. The project is designed to provide a seamless user experience and showcase the power of Redux for state management in complex applications.
 
-### Project Features
-
-- **User Authentication**: Implemented with Redux, allowing users to sign up, log in, and log out securely.
-- **Product Management**: Users can browse, search, and filter products using Redux-powered actions and reducers.
-- **Shopping Cart**: Integrated with Redux to manage and synchronize shopping cart items, providing a smooth shopping experience for users.
-- **Checkout Process**: Implemented a secure and efficient checkout process using Redux to handle user information and order details.
-- **Admin Panel**: Accessible to authorized users, the admin panel allows for easy management of products, orders, and user accounts.
-
 ### Technologies Used
 
 - **React**: A JavaScript library for building user interfaces.
@@ -26,7 +18,12 @@ To run the project locally, follow these steps:
 
 1. Clone the repository to your machine.
 2. Install the dependencies by running `npm install`.
+<<<<<<< HEAD
 3. Start the development server by running `npm start`.
 4. Open your browser and navigate to `localhost:5173` to view the project.
+=======
+3. Start the development server by running `npm run dev`.
+4. Open your browser and navigate to `localhost:3000` to view the project.
+>>>>>>> 7efa60505193cc909f817befec7d4f01c325bd93
 
 
