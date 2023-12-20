@@ -51,7 +51,7 @@ function ProductPage() {
         </div>
         {product && (
           <div className="md:align-center gap-x-24 pb-20 md:mt-[-4rem] md:flex md:h-screen md:justify-center md:p-10">
-            <div className="m-4  rounded-lg border-2 border-slate-400 p-4 md:h-4/6 md:w-2/6 md:self-center">
+            <div className="m-4  rounded-lg border-2 border-slate-400 p-4 md:h-5/6 md:max-w-2/6 md:self-center">
               <img
                 src={product.image}
                 alt={product.title}
@@ -64,7 +64,9 @@ function ProductPage() {
               <div className="text-3xl font-semibold text-indigo-600">
                 ${product.price}
               </div>
-              <div className="mt-2 text-lg overflow-hidden line-clamp-5">{product.description}</div>
+              <div className="mt-2 line-clamp-5 overflow-hidden text-lg">
+                {product.description}
+              </div>
 
               <div className="mx-auto flex gap-2 text-2xl md:mx-0">
                 <div className="self-center font-semibold">Qty :</div>
@@ -90,7 +92,7 @@ function ProductPage() {
               </div>
 
               <button
-                className="mx-6 mt-3 cursor-pointer rounded-md bg-indigo-500 p-3 text-lg font-semibold text-white outline-none duration-200  hover:bg-indigo-600 md:w-auto md:mx-20"
+                className="mx-6 mt-3 cursor-pointer rounded-md bg-indigo-500 p-3 text-lg font-semibold text-white outline-none duration-200  hover:bg-indigo-600 md:mx-20 md:w-auto"
                 onClick={handleClick}
               >
                 Add to Cart
